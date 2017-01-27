@@ -1,0 +1,117 @@
+//lumous theme by Ben Constable
+.CodeMirror {
+    background-color: #1f1f21;
+    color: #ddd;
+}
+//Main body
+.CodeMirror-scroll {
+    background-color: #1f1f21;
+    color: #ddd;
+}
+//background
+.CodeMirror-focused .CodeMirror-activeline-background {
+    background: #fff;
+}
+//Cursor
+.CodeMirror-cursor {
+    border-left: 1px solid #c5c8c6 !important;
+}
+// Strings
+.cm-atom,
+.cm-string,
+.cm-string-2,
+.cm-hr {
+    color: #b9ca4a;
+}
+// Numerical Attributes
+.cm-number,
+.cm-attribute,
+.cm-plus {
+    color: #ffa500;
+}
+//Methods
+.cm-def,
+.cm-property {
+    color: #8B1A89;
+}
+//Anything that needs to be white
+.cm-variable,
+.cm-variable-2,
+.cm-variable-3,
+.cm-operator,
+.cm-meta,
+.cm-bracket {
+    color: #ddd;
+}
+//Comments
+.cm-comment {
+    color: #cc1e5c;
+}
+//Keywords and commands
+.cm-keyword,
+.cm-qualifier,
+.cm-builtin,
+.cm-tag,
+.cm-quote {
+    color: #367588;
+}
+.cm-error,
+.cm-minus {
+    color: #dc322f;
+}
+.cm-link {
+    color: #b77fdb;
+    text-decoration: none;
+}
+.cm-rangeinfo {
+    color: #6c71c4;
+}
+//Search
+.CodeMirror-searching {
+    background-color: #d3cd69;
+    &.searching-current-match {
+        background-color: #f6a644;
+    }
+}
+//gutters
+.CodeMirror-gutters {
+    background-color: #1f1f21;
+    border-right: none;
+}
+//Line Numbers
+.CodeMirror-linenumber {
+    color: #c5c8c6;
+}
+.CodeMirror-focused .CodeMirror-selected {
+    background: #aaaaaa;
+}
+//Matching Brackets and Tags
+.CodeMirror-matchingbracket,
+.CodeMirror-matchingtag {
+    background-color: transparent;
+    color: #8B1A89 !important;
+    font-weight: bold;
+}
+//Arrows to collapse parts of code
+//Bracketes doesnt like these being combined for some reason....
+//Open
+.CodeMirror-foldgutter-open:after {
+    color: #367588;
+}
+//Close
+.CodeMirror-foldgutter-folded:after {
+    color: #367588;
+}
+//Gutter Styling for Folds
+.CodeMirror.over-gutter,
+.CodeMirror-activeline {
+    .CodeMirror-foldgutter-open:after {
+        color: #367588;
+    }
+}
+//Style once code is folded away
+.CodeMirror-foldmarker {
+    border-color: #367588;
+    color: #367588;
+    background-color: #444;
+}
