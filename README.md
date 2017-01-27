@@ -1,2 +1,2 @@
 # lumous
-Theme For Brackets
+### A Dark Interface With Great Vibrant Colours
