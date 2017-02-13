@@ -11,7 +11,7 @@
 
 ### CSS
 
-![CSS](/Img/css.png)
+![CSS](Img/css.png)
 Format: ![Alt Text](url)
 
 ### Javascript
@@ -24,7 +24,7 @@ Format: ![Alt Text](url)
 
 ### JSON
 
-![JSON](/Img/json.png)
+![JSON](Img/json.png)
 Format: ![Alt Text](url)
 
 ***
