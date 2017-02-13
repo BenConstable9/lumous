@@ -1,4 +1,38 @@
 # lumous
 ### A Dark Interface With Great Vibrant Colours
 
-Screenshots to come soon. This is a initial version of the theme, I aim to expand it further in future.
+
+
+## Screenshots
+
+***
+
+### HTML
+
+### CSS
+
+![CSS](/Img/css.png)
+Format: ![Alt Text](url)
+
+### Javascript
+
+### PHP
+
+### Python
+
+### Markdown
+
+### JSON
+
+![JSON](/Img/json.png)
+Format: ![Alt Text](url)
+
+***
+
+## Known Issues
+
+None
+
+***
+
+##### Screenshots taken with code from 'Brackets - Getting Started' & Personal Code By Ben Constable. Code reamins the property of it's respective owners.
