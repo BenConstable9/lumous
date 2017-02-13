@@ -5,14 +5,11 @@
 
 ## Screenshots
 
-***
-
 ### HTML
 
 ### CSS
 
-![CSS](Img/css.png)
-Format: ![Alt Text](url)
+![CSS](https://github.com/BenConstable9/lumous/blob/master/Img/css.PNG "CSS")
 
 ### Javascript
 
@@ -26,8 +23,6 @@ Format: ![Alt Text](url)
 
 ![JSON](Img/json.png)
 Format: ![Alt Text](url)
-
-***
 
 ## Known Issues
 
