@@ -1,7 +1,7 @@
 # lumous
 ### A Dark Interface With Great Vibrant Colours
 
-A simple but vibrant theme for use with Adobe Brackets. More updates coming soon.
+A simple but vibrant theme for use with Adobe Brackets. 
 
 ## Screenshots
 

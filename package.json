@@ -3,7 +3,7 @@
     "title": "lumous",
     "description": "A dark interface with vibrant colours.",
     "homepage": "https://github.com/BenConstable9/lumous",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "Ben Constable",
     "license": "MIT",
     "theme": {
@@ -11,5 +11,5 @@
         "dark": true,
         "addModeClass": true
     },
-    "keywords": ["theme"]
+    "keywords": ["Lumous, vibrant theme, vivid"]
 }

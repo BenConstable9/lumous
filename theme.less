@@ -28,7 +28,7 @@
 .cm-string,
 .cm-string-2,
 .cm-hr {
-    color: #b9ca4a;
+    color: #bcd42a;
 }
 // Numerical Attributes
 .cm-number,
@@ -39,12 +39,20 @@
 //Methods
 .cm-def,
 .cm-property {
-    color: #8B1A89;
+    color: #cb26c9;
 }
 //Anything that needs to be white
-.cm-variable,
-.cm-variable-2,
-.cm-variable-3,
+.cm-variable {
+    color: #d42abc;
+}
+//main variables class
+.cm-variable-2 {
+    color: #fff;    
+}
+.cm-variable-3 {
+    color: #fff;    
+}
+//operators e.g. =
 .cm-operator,
 .cm-meta,
 .cm-bracket {
@@ -60,7 +68,7 @@
 .cm-builtin,
 .cm-tag,
 .cm-quote {
-    color: #367588;
+    color: #26b6d2;
 }
 .cm-error,
 .cm-minus {
@@ -68,7 +76,6 @@
 }
 .cm-link {
     color: #b77fdb;
-    text-decoration: none;
 }
 .cm-rangeinfo {
     color: #6c71c4;
@@ -96,29 +103,29 @@
 .CodeMirror-matchingbracket,
 .CodeMirror-matchingtag {
     background-color: transparent;
-    color: #8B1A89 !important;
+    color: #cb26c9  !important;
     font-weight: bold;
 }
 //Arrows to collapse parts of code
 //Bracketes doesnt like these being combined for some reason....
 //Open
 .CodeMirror-foldgutter-open:after {
-    color: #367588;
+    color: #26b6d2;
 }
 //Close
 .CodeMirror-foldgutter-folded:after {
-    color: #367588;
+    color: #26b6d2;
 }
 //Gutter Styling for Folds
 .CodeMirror.over-gutter,
 .CodeMirror-activeline {
     .CodeMirror-foldgutter-open:after {
-        color: #367588;
+        color: #26b6d2;
     }
 }
 //Style once code is folded away
 .CodeMirror-foldmarker {
-    border-color: #367588;
-    color: #367588;
+    border-color: #26b6d2;
+    color: #26b6d2;
     background-color: #444;
 }
