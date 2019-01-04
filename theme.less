@@ -1,16 +1,20 @@
 //lumous theme by Ben Constable
+//Copyright Ben Constable 2019
+
+//Main body
 .CodeMirror {
     background-color: #1f1f21;
-    color: #ddd;
+    color: #b7b7b7;
 }
-//Main body
+
 .CodeMirror-scroll {
     background-color: #1f1f21;
-    color: #ddd;
+    color: #b7b7b7;
 }
+
 //background
 .CodeMirror-focused .CodeMirror-activeline-background {
-    background: #fff;
+    background: #b7b7b7;
 }
 //scrollbar
 ::-webkit-scrollbar {
@@ -19,67 +23,80 @@
 ::-webkit-scrollbar-thumb {
     border-radius: 5px;
 }
+
 //Cursor
 .CodeMirror-cursor {
     border-left: 1px solid #aaaaaa !important;
 }
+
 // Strings
 .cm-atom,
 .cm-string,
 .cm-string-2,
 .cm-hr {
-    color: #bcd42a;
+    color: #25DF9D;
 }
+
 // Numerical Attributes
 .cm-number,
 .cm-attribute,
 .cm-plus {
     color: #ffa500;
 }
+
 //Methods
 .cm-def,
 .cm-property {
-    color: #cb26c9;
+    color: #d551d3;
 }
-//Anything that needs to be white
+
+//Variables
 .cm-variable {
-    color: #d42abc;
+    color: #d551d3;
 }
-//main variables class
+
 .cm-variable-2 {
-    color: #fff;    
+    color: #ffa500;    
 }
+
 .cm-variable-3 {
-    color: #fff;    
+    color: #b7b7b7;    
 }
-//operators e.g. =
+
+//Operators e.g. =
 .cm-operator,
 .cm-meta,
 .cm-bracket {
-    color: #ddd;
+    color: #b7b7b7;
 }
+
 //Comments
 .cm-comment {
-    color: #cc1e5c;
+    color: #DF2567;
 }
-//Keywords and commands
+
+//Keywords and Commands
 .cm-keyword,
 .cm-qualifier,
 .cm-builtin,
 .cm-tag,
 .cm-quote {
-    color: #26b6d2;
+    color: #51d3d5;
 }
+
 .cm-error,
 .cm-minus {
     color: #dc322f;
 }
+
 .cm-link {
     color: #b77fdb;
 }
+
 .cm-rangeinfo {
     color: #6c71c4;
 }
+
 //Search
 .CodeMirror-searching {
     background-color: #d3cd69;
@@ -87,45 +104,44 @@
         background-color: #f6a644;
     }
 }
-//gutters
+
+//Gutters
 .CodeMirror-gutters {
     background-color: #1f1f21;
     border-right: none;
 }
+
 //Line Numbers
 .CodeMirror-linenumber {
-    color: #c5c8c6;
+    color: #9DA09E;
 }
+
+//Highlighted Text
 .CodeMirror-focused .CodeMirror-selected {
-    background: #aaaaaa;
+    background: #767676;
 }
+
 //Matching Brackets and Tags
 .CodeMirror-matchingbracket,
 .CodeMirror-matchingtag {
     background-color: transparent;
-    color: #cb26c9  !important;
-    font-weight: bold;
+    color: #f48f13  !important;
 }
+
 //Arrows to collapse parts of code
-//Bracketes doesnt like these being combined for some reason....
+
 //Open
 .CodeMirror-foldgutter-open:after {
-    color: #26b6d2;
+    color: #9DA09E;
 }
 //Close
 .CodeMirror-foldgutter-folded:after {
-    color: #26b6d2;
+    color: #9DA09E;
 }
-//Gutter Styling for Folds
-.CodeMirror.over-gutter,
-.CodeMirror-activeline {
-    .CodeMirror-foldgutter-open:after {
-        color: #26b6d2;
-    }
-}
+
 //Style once code is folded away
 .CodeMirror-foldmarker {
-    border-color: #26b6d2;
-    color: #26b6d2;
+    border-color: #9DA09E;
+    color: #9DA09E;
     background-color: #444;
 }

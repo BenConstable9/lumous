@@ -3,8 +3,8 @@
     "title": "lumous",
     "description": "lumous - A dark interface with vibrant colours.",
     "homepage": "https://github.com/BenConstable9/lumous",
-    "version": "1.2.0",
-    "author": "Ben Constable",
+    "version": "2.0.0",
+    "author": "Ben Constable (https://createdbyben.com)",
     "license": "MIT",
     "theme": {
         "file": "theme.less",
